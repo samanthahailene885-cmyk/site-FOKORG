@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fokorg
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: .
+    autoDeployTrigger: commit
